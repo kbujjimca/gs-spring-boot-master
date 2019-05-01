@@ -12,7 +12,7 @@ pipeline {
         } 
      stage ('build docker Stage') {
 
-            sh 'docker build kbujjimca/docker1-spring-boot .
+            sh 'docker build kbujjimca/docker1-spring-boot .'
         }       
     }
 }
